@@ -80,8 +80,8 @@
       </div>
       <div class="w-full bg-gray-200 rounded-full h-2">
         <div class="h-2 rounded-full transition-all duration-300 ease-out" [ngClass]="{
-                'bg-gradient-to-r from-blue-400 to-blue-600': progress() < 100,
-                'bg-gradient-to-r from-green-400 to-green-600': progress() === 100
+                'bg-linear-to-r from-blue-400 to-blue-600': progress() < 100,
+                'bg-linear-to-r from-green-400 to-green-600': progress() === 100
               }" [style.width.%]="progress()">
         </div>
       </div>
