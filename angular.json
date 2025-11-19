@@ -30,6 +30,9 @@
           },
           "configurations": {
             "production": {
+                "baseHref": "/02-ui-componentes/",
+                "deployUrl": "/02-ui-componentes/",
+
               "budgets": [
                 {
                   "type": "initial",
